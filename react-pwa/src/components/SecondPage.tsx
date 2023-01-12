@@ -10,7 +10,7 @@ export default function SecondPage(props: SecondPageProps) {
         <Page>
             <StyledImage src={Windows} />
             <h1>Second Page</h1>
-            <StyledLink href={"/pwa/first-page"}>Back Home</StyledLink>
+            <StyledLink to={"/"}>Back Home</StyledLink>
         </Page>
     );
 }

@@ -10,7 +10,7 @@ export default function FirstPage(props: FirstPageProps) {
         <Page>
             <StyledImage src={Beach} />
             <h1>First Page</h1>
-            <StyledLink href={"/pwa/first-page"}>Back Home</StyledLink>
+            <StyledLink to={"/"}>Back Home</StyledLink>
         </Page>
     );
 }

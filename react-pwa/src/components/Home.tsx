@@ -10,8 +10,8 @@ function Home() {
             <header className="App-header">
                 <StyledImage src={Sunset} />
                 <h1>Demo App</h1>
-                <StyledLink href={"/pwa/first-page"}>First Page</StyledLink>
-                <StyledLink href={"/pwa/second-page"}>Second Page</StyledLink>
+                <StyledLink to={"/first-page"}>First Page</StyledLink>
+                <StyledLink to={"/second-page"}>Second Page</StyledLink>
             </header>
         </div>
     );
