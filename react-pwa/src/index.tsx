@@ -8,20 +8,23 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import SecondPage from "./components/SecondPage";
 import FirstPage from "./components/FirstPage";
 
-const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <Home />,
-    },
-    {
-        path: "/first-page",
-        element: <FirstPage />,
-    },
-    {
-        path: "/second-page",
-        element: <SecondPage />,
-    },
-]);
+const router = createBrowserRouter(
+    [
+        {
+            path: "/",
+            element: <Home />,
+        },
+        {
+            path: "/first-page",
+            element: <FirstPage />,
+        },
+        {
+            path: "/second-page",
+            element: <SecondPage />,
+        },
+    ],
+    { basename: "/pwa" }
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 root.render(
