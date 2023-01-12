@@ -8,6 +8,5 @@ export const StyledImage = styled.img`
 
 export const StyledLink = styled(Link)`
     color: white;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 `;
